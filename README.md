@@ -1,16 +1,46 @@
-# filter_price_product
+Shopping Cart App
+===============
 
-A new Flutter project.
+A simple Shopping Cart app built with Flutter and GetX, demonstrating clean architecture and best practices.
 
-## Getting Started
+Overview
+--------
 
-This project is a starting point for a Flutter application.
+This project is a basic Shopping Cart that allows users to add product from cart. It follows clean architecture principles and uses GetX for state management and dependency injection.
 
-A few resources to get you started if this is your first Flutter project:
+Features
+--------
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*   Show product list
+*   Filter product by price
+*   Add product to cart
+*   Delete product from cart
+*   Increment & decrement product's count in cart
+*   Sum the product's total price
+*   Unit tests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Packages Used
+-------------
+
+*   [GetX](https://pub.dev/packages/get): State management, dependency injection, and navigation
+*   [Mocktail](https://pub.dev/packages/mocktail): Mocking library for testing
+
+How to Run the App
+------------------
+
+1.  Clone the repository:
+
+`git clone https://github.com/baguskto/shoping_cart.git`
+
+2.  Install dependencies:
+
+`flutter pub get`
+
+3. Run the app on an emulator or a physical device:
+
+`flutter run`
+
+Contributing
+------------
+
+Feel free to contribute to this project by opening issues, submitting pull requests, or providing feedback. Your contributions are always welcome!
