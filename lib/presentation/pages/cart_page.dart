@@ -36,7 +36,7 @@ class CartPage extends GetView<CartController> {
           width: double.infinity,
           child: ElevatedButton(
             onPressed: () {},
-            child: Text('Checkout'),
+            child: const Text('Checkout'),
           ),
         )
       ],

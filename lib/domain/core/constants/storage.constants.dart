@@ -1,4 +1,3 @@
 abstract class StorageConstants {
-  static const taskKey = 'tasks';
-
+  static const cartKey = 'cart';
 }

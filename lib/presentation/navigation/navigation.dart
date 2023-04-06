@@ -9,7 +9,7 @@ class Nav {
   static List<GetPage> routes = [
     GetPage(
       name: Routes.PRODUCTS,
-      page: () =>  const ProductsPage(),
+      page: () => const ProductsPage(),
       binding: ProductsBinding(),
     ),
     GetPage(

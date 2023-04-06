@@ -1,4 +1,4 @@
 abstract class ButtonConstants {
-  static const add = 'Tampilkan';
-  static const cancel = 'Reset';
+  static const show = 'Tampilkan';
+  static const reset = 'Reset';
 }

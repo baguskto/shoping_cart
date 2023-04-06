@@ -157,14 +157,14 @@ class ProductsPage extends GetView<ProductController> {
               );
               Get.back();
             },
-            child: const Text(ButtonConstants.add),
+            child: const Text(ButtonConstants.show),
           ),
           TextButton(
             onPressed: () {
               controller.resetFilter();
               Get.back();
             },
-            child: const Text(ButtonConstants.cancel),
+            child: const Text(ButtonConstants.reset),
           ),
         ],
       ),

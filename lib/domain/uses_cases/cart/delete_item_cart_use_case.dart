@@ -1,5 +1,4 @@
 import '../../../data/models/cart_item_model.dart';
-import '../../../data/models/product_model.dart';
 import '../../repositories/cart_repository.dart';
 
 class DeleteItemCartUseCase {

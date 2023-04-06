@@ -1,4 +1,3 @@
-
 class ProductModel {
   ProductModel({
     required this.id,
@@ -25,28 +24,28 @@ class ProductModel {
   String thumbnail;
 
   factory ProductModel.fromJson(Map<String, dynamic> map) => ProductModel(
-    id: map["id"],
-    title: map["title"],
-    description: map["description"],
-    price: map["price"],
-    discountPercentage: map["discountPercentage"]?.toDouble(),
-    rating: map["rating"]?.toDouble(),
-    stock: map["stock"],
-    brand: map["brand"],
-    category: map["category"],
-    thumbnail: map["thumbnail"],
-  );
+        id: map["id"],
+        title: map["title"],
+        description: map["description"],
+        price: map["price"],
+        discountPercentage: map["discountPercentage"]?.toDouble(),
+        rating: map["rating"]?.toDouble(),
+        stock: map["stock"],
+        brand: map["brand"],
+        category: map["category"],
+        thumbnail: map["thumbnail"],
+      );
 
   Map<String, dynamic> toJson() => {
-    "id": id,
-    "title": title,
-    "description": description,
-    "price": price,
-    "discountPercentage": discountPercentage,
-    "rating": rating,
-    "stock": stock,
-    "brand": brand,
-    "category": category,
-    "thumbnail": thumbnail,
-  };
+        "id": id,
+        "title": title,
+        "description": description,
+        "price": price,
+        "discountPercentage": discountPercentage,
+        "rating": rating,
+        "stock": stock,
+        "brand": brand,
+        "category": category,
+        "thumbnail": thumbnail,
+      };
 }

@@ -1,4 +1,3 @@
-import 'package:filter_price_product/data/models/products_model.dart';
 import 'package:filter_price_product/domain/repositories/product_repository.dart';
 
 import '../../../data/models/product_model.dart';
